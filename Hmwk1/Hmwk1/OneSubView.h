@@ -10,4 +10,6 @@
 
 @interface OneSubView : UIView
 
+-(void) addLabel;
+
 @end

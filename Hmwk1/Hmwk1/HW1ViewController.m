@@ -62,5 +62,6 @@
 }
 
 - (IBAction)button:(id)sender {
+   [outlet1 addLabel];
 }
 @end

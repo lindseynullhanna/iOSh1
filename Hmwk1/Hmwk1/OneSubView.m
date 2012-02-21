@@ -28,4 +28,12 @@
 }
 */
 
+-(void) addLabel
+{
+   UILabel *label = [[UILabel alloc] initWithFrame:self.bounds];
+   label.text = @"80% credit (4/5)";
+   label.backgroundColor = [UIColor colorWithRed:1. green:1. blue:1. alpha:0.5];
+   [self addSubview:label];
+}
+
 @end
